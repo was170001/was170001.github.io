@@ -1,0 +1,43 @@
+* {
+	text-align: center;
+}
+
+body {
+	background-image: url(images/background.jpg);
+	background-size: cover;
+	color: white;
+}
+
+.avi {
+	border-radius: 50%;
+	margin-bottom: 0px;
+}
+
+header {
+	font-size: 40px;
+}
+
+h1, h2 {
+	margin: 0px;
+	text-shadow: black;
+}
+
+h2 {
+	padding-bottom: 10px;
+}
+
+.button {
+	background-color: rgb(0,0,0,.5);
+	width: 60%; 
+	padding-top:15px; 
+	padding-bottom:15px; 
+	border: 2px blue;
+	cursor:pointer;
+	transition-duration: 0.4s;
+	color: white;
+}
+
+.button:hover {
+	background-color: black;
+	color: white;
+}
